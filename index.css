@@ -1,0 +1,53 @@
+body{
+	background-image:url("green.jpg");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: calibri;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 1px;
+	color: white;
+	font-style: italic;
+}
+#head{
+	color: orange;
+	font-style: none;
+}
+.box{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 35vh;
+	top: 4em;
+	overflow: hidden;
+}
+input[type="submit"]{
+	height: 2em;
+	width: 12em;
+	color: green;
+	background-color: orange;
+	border-radius: 7px;
+	font-size: 20px;
+	font-weight: 600;
+	cursor: pointer;
+	margin-top: 0.8em;
+}
+input[type="submit"]:hover{
+	color: white;
+}
+input[type="submit"]:focus{
+	color: red;
+	height: 2.1em;
+	width: 12.3em;
+}
+#new{
+	margin-top: 0.5em;
+}
+
+
+
